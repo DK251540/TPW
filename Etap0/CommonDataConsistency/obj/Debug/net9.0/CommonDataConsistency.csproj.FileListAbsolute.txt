@@ -1,0 +1,13 @@
+C:\Users\danie\Source\Repos\TP\ConcurrentProgramming\CommonDataConsistency\bin\Debug\net9.0\TP.ConcurrentProgramming.CommonDataConsistency.deps.json
+C:\Users\danie\Source\Repos\TP\ConcurrentProgramming\CommonDataConsistency\bin\Debug\net9.0\TP.ConcurrentProgramming.CommonDataConsistency.dll
+C:\Users\danie\Source\Repos\TP\ConcurrentProgramming\CommonDataConsistency\bin\Debug\net9.0\TP.ConcurrentProgramming.CommonDataConsistency.pdb
+C:\Users\danie\Source\Repos\TP\ConcurrentProgramming\CommonDataConsistency\obj\Debug\net9.0\CommonDataConsistency.csproj.AssemblyReference.cache
+C:\Users\danie\Source\Repos\TP\ConcurrentProgramming\CommonDataConsistency\obj\Debug\net9.0\CommonDataConsistency.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\Source\Repos\TP\ConcurrentProgramming\CommonDataConsistency\obj\Debug\net9.0\CommonDataConsistency.AssemblyInfoInputs.cache
+C:\Users\danie\Source\Repos\TP\ConcurrentProgramming\CommonDataConsistency\obj\Debug\net9.0\CommonDataConsistency.AssemblyInfo.cs
+C:\Users\danie\Source\Repos\TP\ConcurrentProgramming\CommonDataConsistency\obj\Debug\net9.0\CommonDataConsistency.csproj.CoreCompileInputs.cache
+C:\Users\danie\Source\Repos\TP\ConcurrentProgramming\CommonDataConsistency\obj\Debug\net9.0\CommonDataConsistency.sourcelink.json
+C:\Users\danie\Source\Repos\TP\ConcurrentProgramming\CommonDataConsistency\obj\Debug\net9.0\TP.ConcurrentProgramming.CommonDataConsistency.dll
+C:\Users\danie\Source\Repos\TP\ConcurrentProgramming\CommonDataConsistency\obj\Debug\net9.0\refint\TP.ConcurrentProgramming.CommonDataConsistency.dll
+C:\Users\danie\Source\Repos\TP\ConcurrentProgramming\CommonDataConsistency\obj\Debug\net9.0\TP.ConcurrentProgramming.CommonDataConsistency.pdb
+C:\Users\danie\Source\Repos\TP\ConcurrentProgramming\CommonDataConsistency\obj\Debug\net9.0\ref\TP.ConcurrentProgramming.CommonDataConsistency.dll

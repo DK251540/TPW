@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "4r4fVYnUBAo=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\danie\\Source\\Repos\\TP\\ConcurrentProgramming\\Synchronization\\Synchronization.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\danie\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
