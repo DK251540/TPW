@@ -1,10 +1,6 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\Etap0",
-    "\\Etap0\\ReactiveInteractiveUserInterface",
-    "\\Etap0\\ReactiveInteractiveUserInterface\\GraphicalUserInterface"
+    ""
   ],
-  "SelectedNode": "\\Etap0\\ReactiveInteractiveUserInterface\\GraphicalUserInterface\\MainWindow.xaml.cs",
   "PreviewInSolutionExplorer": false
 }

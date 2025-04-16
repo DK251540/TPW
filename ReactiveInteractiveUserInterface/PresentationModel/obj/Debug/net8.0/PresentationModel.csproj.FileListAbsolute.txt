@@ -1,0 +1,72 @@
+C:\Users\danie\Source\Repos\TP\ConcurrentProgramming\ReactiveInteractiveUserInterface\PresentationModel\bin\Debug\net8.0\TP.ConcurrentProgramming.PresentationModel.deps.json
+C:\Users\danie\Source\Repos\TP\ConcurrentProgramming\ReactiveInteractiveUserInterface\PresentationModel\bin\Debug\net8.0\TP.ConcurrentProgramming.PresentationModel.dll
+C:\Users\danie\Source\Repos\TP\ConcurrentProgramming\ReactiveInteractiveUserInterface\PresentationModel\bin\Debug\net8.0\TP.ConcurrentProgramming.PresentationModel.pdb
+C:\Users\danie\Source\Repos\TP\ConcurrentProgramming\ReactiveInteractiveUserInterface\PresentationModel\bin\Debug\net8.0\DataLayer.dll
+C:\Users\danie\Source\Repos\TP\ConcurrentProgramming\ReactiveInteractiveUserInterface\PresentationModel\bin\Debug\net8.0\TP.ConcurrentProgramming.BusinessLogic.dll
+C:\Users\danie\Source\Repos\TP\ConcurrentProgramming\ReactiveInteractiveUserInterface\PresentationModel\bin\Debug\net8.0\TP.ConcurrentProgramming.BusinessLogic.pdb
+C:\Users\danie\Source\Repos\TP\ConcurrentProgramming\ReactiveInteractiveUserInterface\PresentationModel\bin\Debug\net8.0\DataLayer.pdb
+C:\Users\danie\Source\Repos\TP\ConcurrentProgramming\ReactiveInteractiveUserInterface\PresentationModel\obj\Debug\net8.0\PresentationModel.csproj.AssemblyReference.cache
+C:\Users\danie\Source\Repos\TP\ConcurrentProgramming\ReactiveInteractiveUserInterface\PresentationModel\obj\Debug\net8.0\PresentationModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\Source\Repos\TP\ConcurrentProgramming\ReactiveInteractiveUserInterface\PresentationModel\obj\Debug\net8.0\PresentationModel.AssemblyInfoInputs.cache
+C:\Users\danie\Source\Repos\TP\ConcurrentProgramming\ReactiveInteractiveUserInterface\PresentationModel\obj\Debug\net8.0\PresentationModel.AssemblyInfo.cs
+C:\Users\danie\Source\Repos\TP\ConcurrentProgramming\ReactiveInteractiveUserInterface\PresentationModel\obj\Debug\net8.0\PresentationModel.csproj.CoreCompileInputs.cache
+C:\Users\danie\Source\Repos\TP\ConcurrentProgramming\ReactiveInteractiveUserInterface\PresentationModel\obj\Debug\net8.0\PresentationModel.sourcelink.json
+C:\Users\danie\Source\Repos\TP\ConcurrentProgramming\ReactiveInteractiveUserInterface\PresentationModel\obj\Debug\net8.0\Presenta.2BDC8EB4.Up2Date
+C:\Users\danie\Source\Repos\TP\ConcurrentProgramming\ReactiveInteractiveUserInterface\PresentationModel\obj\Debug\net8.0\TP.ConcurrentProgramming.PresentationModel.dll
+C:\Users\danie\Source\Repos\TP\ConcurrentProgramming\ReactiveInteractiveUserInterface\PresentationModel\obj\Debug\net8.0\refint\TP.ConcurrentProgramming.PresentationModel.dll
+C:\Users\danie\Source\Repos\TP\ConcurrentProgramming\ReactiveInteractiveUserInterface\PresentationModel\obj\Debug\net8.0\TP.ConcurrentProgramming.PresentationModel.pdb
+C:\Users\danie\Source\Repos\TP\ConcurrentProgramming\ReactiveInteractiveUserInterface\PresentationModel\obj\Debug\net8.0\ref\TP.ConcurrentProgramming.PresentationModel.dll
+C:\Politechnika\Semestr 4\TPW\Etap0\ReactiveInteractiveUserInterface\PresentationModel\bin\Debug\net8.0\TP.ConcurrentProgramming.PresentationModel.deps.json
+C:\Politechnika\Semestr 4\TPW\Etap0\ReactiveInteractiveUserInterface\PresentationModel\bin\Debug\net8.0\TP.ConcurrentProgramming.PresentationModel.dll
+C:\Politechnika\Semestr 4\TPW\Etap0\ReactiveInteractiveUserInterface\PresentationModel\bin\Debug\net8.0\TP.ConcurrentProgramming.PresentationModel.pdb
+C:\Politechnika\Semestr 4\TPW\Etap0\ReactiveInteractiveUserInterface\PresentationModel\bin\Debug\net8.0\DataLayer.dll
+C:\Politechnika\Semestr 4\TPW\Etap0\ReactiveInteractiveUserInterface\PresentationModel\bin\Debug\net8.0\TP.ConcurrentProgramming.BusinessLogic.dll
+C:\Politechnika\Semestr 4\TPW\Etap0\ReactiveInteractiveUserInterface\PresentationModel\bin\Debug\net8.0\TP.ConcurrentProgramming.BusinessLogic.pdb
+C:\Politechnika\Semestr 4\TPW\Etap0\ReactiveInteractiveUserInterface\PresentationModel\bin\Debug\net8.0\DataLayer.pdb
+C:\Politechnika\Semestr 4\TPW\Etap0\ReactiveInteractiveUserInterface\PresentationModel\obj\Debug\net8.0\PresentationModel.csproj.AssemblyReference.cache
+C:\Politechnika\Semestr 4\TPW\Etap0\ReactiveInteractiveUserInterface\PresentationModel\obj\Debug\net8.0\PresentationModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Politechnika\Semestr 4\TPW\Etap0\ReactiveInteractiveUserInterface\PresentationModel\obj\Debug\net8.0\PresentationModel.AssemblyInfoInputs.cache
+C:\Politechnika\Semestr 4\TPW\Etap0\ReactiveInteractiveUserInterface\PresentationModel\obj\Debug\net8.0\PresentationModel.AssemblyInfo.cs
+C:\Politechnika\Semestr 4\TPW\Etap0\ReactiveInteractiveUserInterface\PresentationModel\obj\Debug\net8.0\PresentationModel.csproj.CoreCompileInputs.cache
+C:\Politechnika\Semestr 4\TPW\Etap0\ReactiveInteractiveUserInterface\PresentationModel\obj\Debug\net8.0\PresentationModel.sourcelink.json
+C:\Politechnika\Semestr 4\TPW\Etap0\ReactiveInteractiveUserInterface\PresentationModel\obj\Debug\net8.0\Presenta.2BDC8EB4.Up2Date
+C:\Politechnika\Semestr 4\TPW\Etap0\ReactiveInteractiveUserInterface\PresentationModel\obj\Debug\net8.0\TP.ConcurrentProgramming.PresentationModel.dll
+C:\Politechnika\Semestr 4\TPW\Etap0\ReactiveInteractiveUserInterface\PresentationModel\obj\Debug\net8.0\refint\TP.ConcurrentProgramming.PresentationModel.dll
+C:\Politechnika\Semestr 4\TPW\Etap0\ReactiveInteractiveUserInterface\PresentationModel\obj\Debug\net8.0\TP.ConcurrentProgramming.PresentationModel.pdb
+C:\Politechnika\Semestr 4\TPW\Etap0\ReactiveInteractiveUserInterface\PresentationModel\obj\Debug\net8.0\ref\TP.ConcurrentProgramming.PresentationModel.dll
+C:\Politechnika\Semestr 4\TPW\EtapX\ReactiveInteractiveUserInterface\PresentationModel\bin\Debug\net8.0\TP.ConcurrentProgramming.PresentationModel.deps.json
+C:\Politechnika\Semestr 4\TPW\EtapX\ReactiveInteractiveUserInterface\PresentationModel\bin\Debug\net8.0\TP.ConcurrentProgramming.PresentationModel.dll
+C:\Politechnika\Semestr 4\TPW\EtapX\ReactiveInteractiveUserInterface\PresentationModel\bin\Debug\net8.0\TP.ConcurrentProgramming.PresentationModel.pdb
+C:\Politechnika\Semestr 4\TPW\EtapX\ReactiveInteractiveUserInterface\PresentationModel\bin\Debug\net8.0\DataLayer.dll
+C:\Politechnika\Semestr 4\TPW\EtapX\ReactiveInteractiveUserInterface\PresentationModel\bin\Debug\net8.0\TP.ConcurrentProgramming.BusinessLogic.dll
+C:\Politechnika\Semestr 4\TPW\EtapX\ReactiveInteractiveUserInterface\PresentationModel\bin\Debug\net8.0\TP.ConcurrentProgramming.BusinessLogic.pdb
+C:\Politechnika\Semestr 4\TPW\EtapX\ReactiveInteractiveUserInterface\PresentationModel\bin\Debug\net8.0\DataLayer.pdb
+C:\Politechnika\Semestr 4\TPW\EtapX\ReactiveInteractiveUserInterface\PresentationModel\obj\Debug\net8.0\PresentationModel.csproj.AssemblyReference.cache
+C:\Politechnika\Semestr 4\TPW\EtapX\ReactiveInteractiveUserInterface\PresentationModel\obj\Debug\net8.0\PresentationModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Politechnika\Semestr 4\TPW\EtapX\ReactiveInteractiveUserInterface\PresentationModel\obj\Debug\net8.0\PresentationModel.AssemblyInfoInputs.cache
+C:\Politechnika\Semestr 4\TPW\EtapX\ReactiveInteractiveUserInterface\PresentationModel\obj\Debug\net8.0\PresentationModel.AssemblyInfo.cs
+C:\Politechnika\Semestr 4\TPW\EtapX\ReactiveInteractiveUserInterface\PresentationModel\obj\Debug\net8.0\PresentationModel.csproj.CoreCompileInputs.cache
+C:\Politechnika\Semestr 4\TPW\EtapX\ReactiveInteractiveUserInterface\PresentationModel\obj\Debug\net8.0\PresentationModel.sourcelink.json
+C:\Politechnika\Semestr 4\TPW\EtapX\ReactiveInteractiveUserInterface\PresentationModel\obj\Debug\net8.0\Presenta.2BDC8EB4.Up2Date
+C:\Politechnika\Semestr 4\TPW\EtapX\ReactiveInteractiveUserInterface\PresentationModel\obj\Debug\net8.0\TP.ConcurrentProgramming.PresentationModel.dll
+C:\Politechnika\Semestr 4\TPW\EtapX\ReactiveInteractiveUserInterface\PresentationModel\obj\Debug\net8.0\refint\TP.ConcurrentProgramming.PresentationModel.dll
+C:\Politechnika\Semestr 4\TPW\EtapX\ReactiveInteractiveUserInterface\PresentationModel\obj\Debug\net8.0\TP.ConcurrentProgramming.PresentationModel.pdb
+C:\Politechnika\Semestr 4\TPW\EtapX\ReactiveInteractiveUserInterface\PresentationModel\obj\Debug\net8.0\ref\TP.ConcurrentProgramming.PresentationModel.dll
+C:\Politechnika\Semestr 4\TPW\ReactiveInteractiveUserInterface\PresentationModel\bin\Debug\net8.0\TP.ConcurrentProgramming.PresentationModel.deps.json
+C:\Politechnika\Semestr 4\TPW\ReactiveInteractiveUserInterface\PresentationModel\bin\Debug\net8.0\TP.ConcurrentProgramming.PresentationModel.dll
+C:\Politechnika\Semestr 4\TPW\ReactiveInteractiveUserInterface\PresentationModel\bin\Debug\net8.0\TP.ConcurrentProgramming.PresentationModel.pdb
+C:\Politechnika\Semestr 4\TPW\ReactiveInteractiveUserInterface\PresentationModel\bin\Debug\net8.0\DataLayer.dll
+C:\Politechnika\Semestr 4\TPW\ReactiveInteractiveUserInterface\PresentationModel\bin\Debug\net8.0\TP.ConcurrentProgramming.BusinessLogic.dll
+C:\Politechnika\Semestr 4\TPW\ReactiveInteractiveUserInterface\PresentationModel\bin\Debug\net8.0\TP.ConcurrentProgramming.BusinessLogic.pdb
+C:\Politechnika\Semestr 4\TPW\ReactiveInteractiveUserInterface\PresentationModel\bin\Debug\net8.0\DataLayer.pdb
+C:\Politechnika\Semestr 4\TPW\ReactiveInteractiveUserInterface\PresentationModel\obj\Debug\net8.0\PresentationModel.csproj.AssemblyReference.cache
+C:\Politechnika\Semestr 4\TPW\ReactiveInteractiveUserInterface\PresentationModel\obj\Debug\net8.0\PresentationModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Politechnika\Semestr 4\TPW\ReactiveInteractiveUserInterface\PresentationModel\obj\Debug\net8.0\PresentationModel.AssemblyInfoInputs.cache
+C:\Politechnika\Semestr 4\TPW\ReactiveInteractiveUserInterface\PresentationModel\obj\Debug\net8.0\PresentationModel.AssemblyInfo.cs
+C:\Politechnika\Semestr 4\TPW\ReactiveInteractiveUserInterface\PresentationModel\obj\Debug\net8.0\PresentationModel.csproj.CoreCompileInputs.cache
+C:\Politechnika\Semestr 4\TPW\ReactiveInteractiveUserInterface\PresentationModel\obj\Debug\net8.0\PresentationModel.sourcelink.json
+C:\Politechnika\Semestr 4\TPW\ReactiveInteractiveUserInterface\PresentationModel\obj\Debug\net8.0\Presenta.2BDC8EB4.Up2Date
+C:\Politechnika\Semestr 4\TPW\ReactiveInteractiveUserInterface\PresentationModel\obj\Debug\net8.0\TP.ConcurrentProgramming.PresentationModel.dll
+C:\Politechnika\Semestr 4\TPW\ReactiveInteractiveUserInterface\PresentationModel\obj\Debug\net8.0\refint\TP.ConcurrentProgramming.PresentationModel.dll
+C:\Politechnika\Semestr 4\TPW\ReactiveInteractiveUserInterface\PresentationModel\obj\Debug\net8.0\TP.ConcurrentProgramming.PresentationModel.pdb
+C:\Politechnika\Semestr 4\TPW\ReactiveInteractiveUserInterface\PresentationModel\obj\Debug\net8.0\ref\TP.ConcurrentProgramming.PresentationModel.dll
