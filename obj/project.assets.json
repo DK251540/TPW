@@ -237,23 +237,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Adam\\.nuget\\packages\\": {},
+    "C:\\Users\\danie\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Adam\\source\\repos\\BilardApp\\BilardApp\\BilardApp.csproj",
+      "projectUniqueName": "C:\\Users\\danie\\Downloads\\BilardApp_ostatnia_wersja\\BilardApp_ostatnia_wersja\\BilardApp.csproj",
       "projectName": "BilardApp",
-      "projectPath": "C:\\Users\\Adam\\source\\repos\\BilardApp\\BilardApp\\BilardApp.csproj",
-      "packagesPath": "C:\\Users\\Adam\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Adam\\source\\repos\\BilardApp\\BilardApp\\obj\\",
+      "projectPath": "C:\\Users\\danie\\Downloads\\BilardApp_ostatnia_wersja\\BilardApp_ostatnia_wersja\\BilardApp.csproj",
+      "packagesPath": "C:\\Users\\danie\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\danie\\Downloads\\BilardApp_ostatnia_wersja\\BilardApp_ostatnia_wersja\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Adam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\danie\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -322,7 +322,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

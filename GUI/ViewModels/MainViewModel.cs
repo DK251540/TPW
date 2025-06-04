@@ -11,6 +11,7 @@ using System.Windows.Input;
 using BilardApp.GUI.Models;
 using System.Timers;
 using System.Windows.Threading;
+using System.Diagnostics;
 
 namespace BilardApp.GUI.ViewModels
 {
@@ -78,10 +79,18 @@ namespace BilardApp.GUI.ViewModels
                 Balls.Add(guiBall);
             }
         }
+        // Stopwatch to track time for ball updates
+        private readonly Stopwatch _stopwatch = Stopwatch.StartNew();
+        private long _lastUpdateTime = 0;
 
         private async Task UpdateBallsAsync()
         {
-            await _ballService.UpdateBallPositionsAsync(LogicalWidth, LogicalHeight);
+            long now = _stopwatch.ElapsedMilliseconds;
+            double deltaTime = (now - _lastUpdateTime) / 1000.0; // sekundy
+            _lastUpdateTime = now;
+
+            await _ballService.UpdateBallPositionsAsync(LogicalWidth, LogicalHeight, deltaTime);
+
             foreach (var ball in Balls)
             {
                 ball.Refresh();

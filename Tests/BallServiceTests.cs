@@ -39,7 +39,7 @@ namespace BilardApp.Tests.Logic
                 ?.SetValue(service, new List<IBall> { ball1.Object, ball2.Object });
 
             // Act
-            await service.UpdateBallPositionsAsync(1000, 750);
+            await service.UpdateBallPositionsAsync(1000, 750, 0.016);
 
             // Assert
             Assert.True(ball1.Object.VelocityX < 0);

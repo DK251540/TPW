@@ -20,26 +20,25 @@ namespace BilardApp.Data.Models
 
         public Ball()
         {
-            VelocityX = _rand.NextDouble() * 4 - 2;
-            VelocityY = _rand.NextDouble() * 4 - 2;
+            VelocityX = (_rand.NextDouble() * 4 - 2)*50;
+            VelocityY = (_rand.NextDouble() * 4 - 2)*50;
             Mass = _rand.NextDouble() * 2 + 0.5; // Inicjalizacja masy
         }
 
-        public void Move(double maxWidth, double maxHeight)
+        public void Move(double maxWidth, double maxHeight, double deltaTime)
         {
-            X += VelocityX;
-            Y += VelocityY;
+            X += VelocityX * deltaTime;
+            Y += VelocityY * deltaTime;
 
-            // Odbicia od ścian
             if (X - Radius < 0 || X + Radius > maxWidth)
                 VelocityX *= -1;
 
             if (Y - Radius < 0 || Y + Radius > maxHeight)
                 VelocityY *= -1;
 
-            // Korekta pozycji
             X = Math.Max(Radius, Math.Min(maxWidth - Radius, X));
             Y = Math.Max(Radius, Math.Min(maxHeight - Radius, Y));
         }
+
     }
 }
