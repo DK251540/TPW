@@ -19,7 +19,7 @@ namespace BilardApp.GUI.ViewModels
     {
         private readonly IBallService _ballService;
         private readonly DispatcherTimer _animationTimer;
-        private readonly DispatcherTimer _colorChangeTimer;
+        private readonly System.Timers.Timer _colorChangeTimer;  // Zmiana na System.Timers.Timer
         private readonly Random _random = new();
 
         private int _ballCount = 10;
@@ -59,9 +59,12 @@ namespace BilardApp.GUI.ViewModels
             _animationTimer.Tick += async (s, e) => await UpdateBallsAsync();
             _animationTimer.Start();
 
-            _colorChangeTimer = new DispatcherTimer();
-            _colorChangeTimer.Interval = TimeSpan.FromSeconds(5);
-            _colorChangeTimer.Tick += (s, e) => ChangeBallColors();
+            _colorChangeTimer = new System.Timers.Timer(5000);  // 5 sekund
+            _colorChangeTimer.Elapsed += (s, e) =>
+            {
+                    ChangeBallColors();
+            };
+            _colorChangeTimer.AutoReset = true;
             _colorChangeTimer.Start();
         }
 
@@ -102,6 +105,25 @@ namespace BilardApp.GUI.ViewModels
             {
                 ball.Refresh();
             }
+        }
+
+        protected virtual void Dispose(bool disposing)
+        {
+            if (disposing)
+            {
+                _colorChangeTimer?.Dispose();
+            }
+        }
+
+        public void Dispose()
+        {
+            Dispose(true);
+            GC.SuppressFinalize(this);
+        }
+
+        ~MainViewModel()
+        {
+            Dispose(false);
         }
 
         public event PropertyChangedEventHandler PropertyChanged;

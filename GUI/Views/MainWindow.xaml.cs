@@ -31,6 +31,15 @@ namespace BilardApp.GUI.Views
                 vm.UpdateCanvasSize(GameCanvas.ActualWidth, GameCanvas.ActualHeight);
             }
         }
+
+        protected override void OnClosed(EventArgs e)
+        {
+            if (DataContext is IDisposable disposable)
+            {
+                disposable.Dispose();
+            }
+            base.OnClosed(e);
+        }
     }
 
 

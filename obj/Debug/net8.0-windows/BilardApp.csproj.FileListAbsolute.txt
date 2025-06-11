@@ -52,6 +52,3 @@ C:\Users\Adam\Downloads\BilardApp\BilardApp\obj\Debug\net8.0-windows\refint\Bila
 C:\Users\Adam\Downloads\BilardApp\BilardApp\obj\Debug\net8.0-windows\BilardApp.pdb
 C:\Users\Adam\Downloads\BilardApp\BilardApp\obj\Debug\net8.0-windows\BilardApp.genruntimeconfig.cache
 C:\Users\Adam\Downloads\BilardApp\BilardApp\obj\Debug\net8.0-windows\ref\BilardApp.dll
-C:\Politechnika\Semestr 4\TPW\obj\Debug\net8.0-windows\BilardApp.dll
-C:\Politechnika\Semestr 4\TPW\obj\Debug\net8.0-windows\refint\BilardApp.dll
-C:\Politechnika\Semestr 4\TPW\obj\Debug\net8.0-windows\BilardApp.pdb

@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Politechnika\Semestr 4\TPW\obj\Release\net8.0-windows\
+C:\Users\Adam\Downloads\BilardApp\BilardApp\obj\Release\net8.0-windows\
 BilardApp
 none
 false
 TRACE;RELEASE;NET;NET8_0;NETCOREAPP
-C:\Politechnika\Semestr 4\TPW\App.xaml
+C:\Users\Adam\Downloads\BilardApp\BilardApp\App.xaml
 1-895984312
 
 131269172060
-1981839832580
+203252572172
 GUI\Views\MainWindow.xaml;
 
-True
+False
 
