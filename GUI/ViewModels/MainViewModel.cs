@@ -11,14 +11,16 @@ using System.Windows.Input;
 using BilardApp.GUI.Models;
 using System.Timers;
 using System.Windows.Threading;
-using System.Diagnostics;
+using System.Windows.Media;
 
 namespace BilardApp.GUI.ViewModels
 {
     public class MainViewModel : INotifyPropertyChanged
     {
         private readonly IBallService _ballService;
-        private readonly DispatcherTimer _timer;
+        private readonly DispatcherTimer _animationTimer;
+        private readonly DispatcherTimer _colorChangeTimer;
+        private readonly Random _random = new();
 
         private int _ballCount = 10;
         public int BallCount
@@ -38,16 +40,29 @@ namespace BilardApp.GUI.ViewModels
 
         public ICommand GenerateBallsCommand { get; }
 
+        private void ChangeBallColors()
+        {
+            foreach (var ball in Balls)
+            {
+                ball.UpdateColor();
+            }
+        }
+
         public MainViewModel(IBallService ballService)
         {
             _ballService = ballService;
 
             GenerateBallsCommand = new RelayCommand(_ => GenerateBallsAsync());
 
-            _timer = new DispatcherTimer();
-            _timer.Interval = TimeSpan.FromMilliseconds(8); // ~60 FPS
-            _timer.Tick += async (s, e) => await UpdateBallsAsync();
-            _timer.Start();
+            _animationTimer = new DispatcherTimer();
+            _animationTimer.Interval = TimeSpan.FromMilliseconds(8); // ~60 FPS
+            _animationTimer.Tick += async (s, e) => await UpdateBallsAsync();
+            _animationTimer.Start();
+
+            _colorChangeTimer = new DispatcherTimer();
+            _colorChangeTimer.Interval = TimeSpan.FromSeconds(5);
+            _colorChangeTimer.Tick += (s, e) => ChangeBallColors();
+            _colorChangeTimer.Start();
         }
 
         private const double LogicalWidth = 1000;
@@ -79,18 +94,10 @@ namespace BilardApp.GUI.ViewModels
                 Balls.Add(guiBall);
             }
         }
-        // Stopwatch to track time for ball updates
-        private readonly Stopwatch _stopwatch = Stopwatch.StartNew();
-        private long _lastUpdateTime = 0;
 
         private async Task UpdateBallsAsync()
         {
-            long now = _stopwatch.ElapsedMilliseconds;
-            double deltaTime = (now - _lastUpdateTime) / 1000.0; // sekundy
-            _lastUpdateTime = now;
-
-            await _ballService.UpdateBallPositionsAsync(LogicalWidth, LogicalHeight, deltaTime);
-
+            await _ballService.UpdateBallPositionsAsync(LogicalWidth, LogicalHeight);
             foreach (var ball in Balls)
             {
                 ball.Refresh();

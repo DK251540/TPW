@@ -1,6 +1,14 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Data",
+    "\\Data\\Interfaces",
+    "\\Data\\Models",
+    "\\GUI",
+    "\\GUI\\ViewModels",
+    "\\Logic",
+    "\\Logic\\Interfaces",
+    "\\Logic\\Services"
   ],
   "SelectedNode": "\\BilardApp.csproj",
   "PreviewInSolutionExplorer": false

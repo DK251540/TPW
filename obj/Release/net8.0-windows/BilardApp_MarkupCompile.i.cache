@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Adam\source\repos\BilardApp\BilardApp\obj\Release\net8.0-windows\
+C:\Users\Adam\Downloads\BilardApp\BilardApp\obj\Release\net8.0-windows\
 BilardApp
 none
 false
 TRACE;RELEASE;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
-C:\Users\Adam\source\repos\BilardApp\BilardApp\App.xaml
+C:\Users\Adam\Downloads\BilardApp\BilardApp\App.xaml
 1-895984312
 
-171973898628
+15541009110
 203252572172
 GUI\Views\MainWindow.xaml;
 
-False
+True
 

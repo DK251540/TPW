@@ -14,6 +14,6 @@ namespace BilardApp.Data.Interfaces
         double Mass { get; set; } 
         double VelocityX { get; set; }
         double VelocityY { get; set; }
-        void Move(double maxWidth, double maxHeight, double deltaTime);
+        void Move(double maxWidth, double maxHeight);
     }
 }

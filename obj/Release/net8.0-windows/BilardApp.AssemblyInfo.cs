@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BilardApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+19f731cd8bf0d2c029659d37f3b807ad537a95c2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7029999b72704c56b7be63a9b85f39b730d0fb61")]
 [assembly: System.Reflection.AssemblyProductAttribute("BilardApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BilardApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -16,24 +16,54 @@ namespace BilardApp.GUI.Models
         private double _scaleX = 1;
         private double _scaleY = 1;
         private const double VisualScaleFactor = 1.5;
+        private Brush _ballColor;
 
         public GuiBall(IBall ball)
         {
             _ball = ball;
-            // Ustaw kolor na podstawie masy
-            BallColor = ball.Mass switch
-            {
-                < 1 => Brushes.LightBlue,
-                < 1.5 => Brushes.Blue,
-                < 2 => Brushes.Red,
-                _ => Brushes.DarkRed
-            };
+            UpdateColor();
         }
 
         public double ScaledX => _ball.X * _scaleX;
         public double ScaledY => _ball.Y * _scaleY;
         public double ScaledRadius => _ball.Radius * ((_scaleX + _scaleY) / 2) * VisualScaleFactor;
-        public Brush BallColor { get; }
+        public Brush BallColor
+        {
+            get => _ballColor;
+            private set
+            {
+                _ballColor = value;
+                OnPropertyChanged();
+            }
+        }
+
+        private static int _colorSchemeIndex = 0;
+        private static readonly Brush[][] _colorSchemes =
+        {
+    // Schemat 0 - oryginalny
+    new[] { Brushes.LightBlue, Brushes.Blue, Brushes.Red, Brushes.DarkRed },
+    // Schemat 1 - pastelowy
+    new[] { Brushes.LightGreen, Brushes.LightSkyBlue, Brushes.LightPink, Brushes.LightSalmon },
+    // Schemat 2 - ciemny
+    new[] { Brushes.DarkGreen, Brushes.DarkBlue, Brushes.DarkViolet, Brushes.DarkRed },
+    // Schemat 3 - neonowy
+    new[] { Brushes.Lime, Brushes.Cyan, Brushes.Magenta, Brushes.Yellow }
+};
+
+        public void UpdateColor()
+        {
+            var scheme = _colorSchemes[_colorSchemeIndex];
+            BallColor = _ball.Mass switch
+            {
+                < 1 => scheme[0],
+                < 1.5 => scheme[1],
+                < 2 => scheme[2],
+                _ => scheme[3]
+            };
+
+            // Przełącz na następny schemat
+            _colorSchemeIndex = (_colorSchemeIndex + 1) % _colorSchemes.Length;
+        }
 
         public void SetScale(double width, double height)
         {

@@ -1,0 +1,208 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Adam\\Downloads\\BilardApp\\BilardApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E8C2DA60-4534-E9E2-A90B-796648216C71}|BilardApp.csproj|c:\\users\\adam\\downloads\\bilardapp\\bilardapp\\bilardapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E8C2DA60-4534-E9E2-A90B-796648216C71}|BilardApp.csproj|solutionrelative:bilardapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8C2DA60-4534-E9E2-A90B-796648216C71}|BilardApp.csproj|c:\\users\\adam\\downloads\\bilardapp\\bilardapp\\gui\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8C2DA60-4534-E9E2-A90B-796648216C71}|BilardApp.csproj|solutionrelative:gui\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8C2DA60-4534-E9E2-A90B-796648216C71}|BilardApp.csproj|c:\\users\\adam\\downloads\\bilardapp\\bilardapp\\logic\\services\\ballservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8C2DA60-4534-E9E2-A90B-796648216C71}|BilardApp.csproj|solutionrelative:logic\\services\\ballservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8C2DA60-4534-E9E2-A90B-796648216C71}|BilardApp.csproj|c:\\users\\adam\\downloads\\bilardapp\\bilardapp\\logic\\interfaces\\iballservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8C2DA60-4534-E9E2-A90B-796648216C71}|BilardApp.csproj|solutionrelative:logic\\interfaces\\iballservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8C2DA60-4534-E9E2-A90B-796648216C71}|BilardApp.csproj|c:\\users\\adam\\downloads\\bilardapp\\bilardapp\\gui\\models\\guiball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8C2DA60-4534-E9E2-A90B-796648216C71}|BilardApp.csproj|solutionrelative:gui\\models\\guiball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8C2DA60-4534-E9E2-A90B-796648216C71}|BilardApp.csproj|c:\\users\\adam\\downloads\\bilardapp\\bilardapp\\gui\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8C2DA60-4534-E9E2-A90B-796648216C71}|BilardApp.csproj|solutionrelative:gui\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8C2DA60-4534-E9E2-A90B-796648216C71}|BilardApp.csproj|c:\\users\\adam\\downloads\\bilardapp\\bilardapp\\gui\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E8C2DA60-4534-E9E2-A90B-796648216C71}|BilardApp.csproj|solutionrelative:gui\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8C2DA60-4534-E9E2-A90B-796648216C71}|BilardApp.csproj|c:\\users\\adam\\downloads\\bilardapp\\bilardapp\\gui\\viewmodels\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8C2DA60-4534-E9E2-A90B-796648216C71}|BilardApp.csproj|solutionrelative:gui\\viewmodels\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8C2DA60-4534-E9E2-A90B-796648216C71}|BilardApp.csproj|c:\\users\\adam\\downloads\\bilardapp\\bilardapp\\data\\models\\ball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8C2DA60-4534-E9E2-A90B-796648216C71}|BilardApp.csproj|solutionrelative:data\\models\\ball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8C2DA60-4534-E9E2-A90B-796648216C71}|BilardApp.csproj|c:\\users\\adam\\downloads\\bilardapp\\bilardapp\\data\\interfaces\\iball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8C2DA60-4534-E9E2-A90B-796648216C71}|BilardApp.csproj|solutionrelative:data\\interfaces\\iball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BilardApp.csproj",
+              "DocumentMoniker": "C:\\Users\\Adam\\Downloads\\BilardApp\\BilardApp\\BilardApp.csproj",
+              "RelativeDocumentMoniker": "BilardApp.csproj",
+              "ToolTip": "C:\\Users\\Adam\\Downloads\\BilardApp\\BilardApp\\BilardApp.csproj",
+              "RelativeToolTip": "BilardApp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-11T10:30:51.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BallService.cs",
+              "DocumentMoniker": "C:\\Users\\Adam\\Downloads\\BilardApp\\BilardApp\\Logic\\Services\\BallService.cs",
+              "RelativeDocumentMoniker": "Logic\\Services\\BallService.cs",
+              "ToolTip": "C:\\Users\\Adam\\Downloads\\BilardApp\\BilardApp\\Logic\\Services\\BallService.cs",
+              "RelativeToolTip": "Logic\\Services\\BallService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T10:05:35.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IBallService.cs",
+              "DocumentMoniker": "C:\\Users\\Adam\\Downloads\\BilardApp\\BilardApp\\Logic\\Interfaces\\IBallService.cs",
+              "RelativeDocumentMoniker": "Logic\\Interfaces\\IBallService.cs",
+              "ToolTip": "C:\\Users\\Adam\\Downloads\\BilardApp\\BilardApp\\Logic\\Interfaces\\IBallService.cs",
+              "RelativeToolTip": "Logic\\Interfaces\\IBallService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T10:05:29.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Adam\\Downloads\\BilardApp\\BilardApp\\GUI\\ViewModels\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "GUI\\ViewModels\\RelayCommand.cs",
+              "ToolTip": "C:\\Users\\Adam\\Downloads\\BilardApp\\BilardApp\\GUI\\ViewModels\\RelayCommand.cs",
+              "RelativeToolTip": "GUI\\ViewModels\\RelayCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T10:05:24.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GuiBall.cs",
+              "DocumentMoniker": "C:\\Users\\Adam\\Downloads\\BilardApp\\BilardApp\\GUI\\Models\\GuiBall.cs",
+              "RelativeDocumentMoniker": "GUI\\Models\\GuiBall.cs",
+              "ToolTip": "C:\\Users\\Adam\\Downloads\\BilardApp\\BilardApp\\GUI\\Models\\GuiBall.cs",
+              "RelativeToolTip": "GUI\\Models\\GuiBall.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAcwDQAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T10:05:15.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Ball.cs",
+              "DocumentMoniker": "C:\\Users\\Adam\\Downloads\\BilardApp\\BilardApp\\Data\\Models\\Ball.cs",
+              "RelativeDocumentMoniker": "Data\\Models\\Ball.cs",
+              "ToolTip": "C:\\Users\\Adam\\Downloads\\BilardApp\\BilardApp\\Data\\Models\\Ball.cs",
+              "RelativeToolTip": "Data\\Models\\Ball.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAuwCwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T10:04:45.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IBall.cs",
+              "DocumentMoniker": "C:\\Users\\Adam\\Downloads\\BilardApp\\BilardApp\\Data\\Interfaces\\IBall.cs",
+              "RelativeDocumentMoniker": "Data\\Interfaces\\IBall.cs",
+              "ToolTip": "C:\\Users\\Adam\\Downloads\\BilardApp\\BilardApp\\Data\\Interfaces\\IBall.cs",
+              "RelativeToolTip": "Data\\Interfaces\\IBall.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T10:04:39.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Adam\\Downloads\\BilardApp\\BilardApp\\GUI\\ViewModels\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "GUI\\ViewModels\\MainViewModel.cs",
+              "ToolTip": "C:\\Users\\Adam\\Downloads\\BilardApp\\BilardApp\\GUI\\ViewModels\\MainViewModel.cs",
+              "RelativeToolTip": "GUI\\ViewModels\\MainViewModel.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAIwDoAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T09:41:16.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Adam\\Downloads\\BilardApp\\BilardApp\\GUI\\Views\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "GUI\\Views\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Adam\\Downloads\\BilardApp\\BilardApp\\GUI\\Views\\MainWindow.xaml.cs",
+              "RelativeToolTip": "GUI\\Views\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAcwCYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T10:05:48.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Adam\\Downloads\\BilardApp\\BilardApp\\GUI\\Views\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "GUI\\Views\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Adam\\Downloads\\BilardApp\\BilardApp\\GUI\\Views\\MainWindow.xaml",
+              "RelativeToolTip": "GUI\\Views\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-11T09:41:12.922Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

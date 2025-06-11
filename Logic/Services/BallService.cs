@@ -1,10 +1,11 @@
-﻿using BilardApp.Data.Interfaces;
-using BilardApp.Data.Models;
-using BilardApp.Logic.Interfaces;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
+using BilardApp.Data.Interfaces;
+using BilardApp.Data.Models;
+using BilardApp.Logic.Interfaces;
 
 namespace BilardApp.Logic.Services
 {
@@ -12,12 +13,6 @@ namespace BilardApp.Logic.Services
     {
         private readonly List<IBall> _balls = new();
         private readonly object _lock = new();
-        private readonly IBallLoggerService? _logger;
-
-        public BallService(IBallLoggerService? logger = null)
-        {
-            _logger = logger;
-        }
 
         public void CreateBalls(int count, double width, double height)
         {
@@ -30,12 +25,12 @@ namespace BilardApp.Logic.Services
                 {
                     X = rand.NextDouble() * (width - 20) + 10,
                     Y = rand.NextDouble() * (height - 20) + 10,
-                    Mass = rand.NextDouble() * 2 + 0.5
+                    Mass = rand.NextDouble() * 2 + 0.5 // Teraz to zadziała
                 };
                 _balls.Add(ball);
             }
         }
-
+       
         public IEnumerable<IBall> GetBalls()
         {
             lock (_lock)
@@ -44,20 +39,19 @@ namespace BilardApp.Logic.Services
             }
         }
 
-        public async Task UpdateBallPositionsAsync(double width, double height, double deltaTime)
+        public async Task UpdateBallPositionsAsync(double width, double height)
         {
             await Task.Run(() =>
             {
                 lock (_lock)
                 {
+                    // Aktualizacja pozycji
                     foreach (var ball in _balls)
                     {
-                        if (ball is Ball concreteBall)
-                        {
-                            concreteBall.Move(width, height, deltaTime);
-                        }
+                        ball.Move(width, height);
                     }
 
+                    // Detekcja kolizji
                     for (int i = 0; i < _balls.Count; i++)
                     {
                         for (int j = i + 1; j < _balls.Count; j++)
@@ -68,8 +62,6 @@ namespace BilardApp.Logic.Services
                             }
                         }
                     }
-
-                    _ = _logger?.LogAsync(_balls.ToList(), DateTime.Now);
                 }
             });
         }
@@ -79,31 +71,38 @@ namespace BilardApp.Logic.Services
             double dx = ball1.X - ball2.X;
             double dy = ball1.Y - ball2.Y;
             double distance = Math.Sqrt(dx * dx + dy * dy);
-            return distance < (ball1.Radius + ball2.Radius) * 0.9;
+            return distance < (ball1.Radius + ball2.Radius) * 0.9; 
         }
 
         private void HandleCollision(IBall ball1, IBall ball2)
         {
+            // Oblicz wektor normalny kolizji
             double dx = ball2.X - ball1.X;
             double dy = ball2.Y - ball1.Y;
             double distance = Math.Sqrt(dx * dx + dy * dy);
 
-            if (distance == 0) return; // zapobiegamy dzieleniu przez 0
-
+            // Normalizacja wektora
             double nx = dx / distance;
             double ny = dy / distance;
 
+            // Oblicz względną prędkość
             double relativeVelocityX = ball2.VelocityX - ball1.VelocityX;
             double relativeVelocityY = ball2.VelocityY - ball1.VelocityY;
 
+            // Oblicz prędkość wzdłuż normalnej
             double velocityAlongNormal = relativeVelocityX * nx + relativeVelocityY * ny;
 
+            // Jeśli kule oddalają się od siebie, nie ma kolizji
             if (velocityAlongNormal > 0) return;
 
+            // Współczynnik restytucji (1 dla zderzenia doskonale sprężystego)
             double restitution = 1.0;
+
+            // Oblicz impuls
             double j = -(1 + restitution) * velocityAlongNormal;
             j /= (1 / ball1.Mass) + (1 / ball2.Mass);
 
+            // Zastosuj impuls
             double impulseX = j * nx;
             double impulseY = j * ny;
 
@@ -112,6 +111,7 @@ namespace BilardApp.Logic.Services
             ball2.VelocityX += impulseX / ball2.Mass;
             ball2.VelocityY += impulseY / ball2.Mass;
 
+            // Rozdziel kule, aby uniknąć "zlepienia"
             double overlap = (ball1.Radius + ball2.Radius) - distance;
             if (overlap > 0)
             {

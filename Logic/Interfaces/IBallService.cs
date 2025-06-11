@@ -11,7 +11,6 @@ namespace BilardApp.Logic.Interfaces
     {
         void CreateBalls(int count, double width, double height);
         IEnumerable<IBall> GetBalls();
-        Task UpdateBallPositionsAsync(double width, double height, double deltaTime);
-
+        Task UpdateBallPositionsAsync(double width, double height);
     }
 }
